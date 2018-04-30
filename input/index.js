@@ -14,7 +14,7 @@ function compareAnswers(answer1, answer2) {
 
 if (validated_args === true) {
     let authoritativeAnswer = (tempConversion(argv));
-    console.log(compareAnswers(authoritativeAnswer, 99.5));
+    console.log(compareAnswers(authoritativeAnswer, argv.answer));
 } else {
     console.log('invalid');
 }
