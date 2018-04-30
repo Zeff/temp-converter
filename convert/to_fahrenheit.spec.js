@@ -3,7 +3,7 @@
 const toFahrenheit = require('./to_fahrenheit').toFahrenheit;
 const expect = require('chai').expect;
 
-describe('Conversion functions', () => {
+describe('To Fahrenheit conversions', () => {
     describe('"toFahrenheit"', () => {
         it('should be a function', () => {
             expect(toFahrenheit).to.be.a('function');
