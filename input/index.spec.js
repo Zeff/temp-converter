@@ -15,6 +15,16 @@ describe('Input functions', () => {
     describe('"validateArgs"', () => {
         it('should be a function', () => {
             expect(input.validateArgs).to.be.a('function');
+        }),
+    describe('"tempConversion"', () => {
+        it('should be a function', () => {
+            expect(input.tempConversion).to.be.a('function');
         });
+    }),
+    describe('"compareAnswers"', () => {
+        it('should be a function', () => {
+            expect(input.compareAnswers).to.be.a('function');
+        });
+    });
     });
 })
