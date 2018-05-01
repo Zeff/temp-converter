@@ -1,0 +1,26 @@
+{
+  "name": "flexion-temp-converter-test",
+  "version": "0.1.0",
+  "description": "Simple tool to perform temperature conversions and check student responses.",
+  "main": "converter.js",
+  "scripts": {
+    "test": "mocha **/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeff/flexion-temp-converter.git"
+  },
+  "author": "Zeff Morgan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zeff/flexion-temp-converter/issues"
+  },
+  "homepage": "https://github.com/Zeff/flexion-temp-converter#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  },
+  "dependencies": {
+    "yargs": "^11.0.0"
+  }
+}
