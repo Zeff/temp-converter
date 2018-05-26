@@ -1,5 +1,5 @@
-# Flexion Temperature Converter/Checker
-[![CircleCI](https://circleci.com/gh/Zeff/flexion-temp-converter/tree/dev.svg?style=svg&circle-token=3aa38453c7c7991ec8cd825809ba5364cfea1bf3)](https://circleci.com/gh/Zeff/flexion-temp-converter/tree/dev)
+# Temperature Converter/Checker
+[![CircleCI](https://circleci.com/gh/Zeff/temp-converter.svg?style=svg&circle-token=3aa38453c7c7991ec8cd825809ba5364cfea1bf3)](https://circleci.com/gh/Zeff/temp-converter)
 ## Description
 A command line utility that allows users to input specific temperature conversion problems along with student answers. It responds with 'correct' or 'incorrect' after comparing the authoritative computed answer to the students answer, after rounding both to the ones place. It also performs basic input validation on the conversion problem data and returns a response of 'invlaid' if it detects an issue with data entry.
 
